@@ -1,18 +1,3 @@
-/*
- Navicat Premium Data Transfer
-
- Source Server         : mycould
- Source Server Type    : MariaDB
- Source Server Version : 50556
- Source Host           : 118.25.36.41
- Source Database       : lu_tale
-
- Target Server Type    : MariaDB
- Target Server Version : 50556
- File Encoding         : utf-8
-
- Date: 05/03/2018 17:01:52 PM
-*/
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;

@@ -1,9 +1,11 @@
+#server:
+#  port: 443
+#  ssl:
+#    key-store: classpath:luischen.cn.pfx
+#    key-store-password: l29df164yf5d4z
+#    key-store-type: PKCS12
 server:
-  port: 443
-  ssl:
-    key-store: classpath:luischen.cn.pfx
-    key-store-password: l29df164yf5d4z
-    key-store-type: PKCS12
+  port: 8080
 
 
 spring:
@@ -16,9 +18,9 @@ spring:
           filters: stat
           driver-class-name: com.mysql.jdbc.Driver
           #基本属性
-          url: jdbc:mysql://127.0.0.1:3306/lu_tale?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+          url: jdbc:mysql://127.0.0.1:3310/lu_tale?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
           username: root
-          password: mac123
+          password: root
           #配置初始化大小/最小/最大
           initial-size: 1
           min-idle: 1
